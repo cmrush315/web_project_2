@@ -6,6 +6,9 @@
   line-height: 20px;
 }
 
-@media (min-with: 1600px) {
-  margin: 0 auto;
+@media (min-width: 1600px) {
+  .page {
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }
