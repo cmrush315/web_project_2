@@ -1,9 +1,13 @@
 .header {
-  margin: 0 auto;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
-  background: #fff url("../images/background_header.svg") no-repeat center;
+  /* background-color: #fff;
+  background-image: url("../images/background_header.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: #fff url(../images/background_header.svg) no-repeat center / cover;
 }
 
 .logo {
@@ -38,7 +42,7 @@
 
 .header__title {
   max-width: 729px;
-  padding-left: 80px;
+  margin: 0 0 23px 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -58,7 +62,7 @@
 
 .header__description {
   max-width: 683px;
-  padding-left: 80px;
+  margin-left: 80px;
   font-family: Noto Serif;
   font-style: normal;
   font-weight: normal;
@@ -70,16 +74,21 @@
   position: absolute;
   right: 5px;
   top: 124px;
-  max-width: 650px;
+  max-width: 550px;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 80px;
+.header__footer {
   position: absolute;
+  left: 0;
   bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 80px 0;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
+
 .header__hours {
   align-self: flex-end;
   font-family: Inter;
