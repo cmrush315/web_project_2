@@ -76,7 +76,9 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 0 80px 40px 80px;
+  margin: 0 80px;
+  position: absolute;
+  bottom: 40px;
 }
 .header__hours {
   align-self: flex-end;
