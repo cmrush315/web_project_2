@@ -31,7 +31,7 @@
   line-height: 20px;
   text-decoration: none;
   margin-left: 20px;
-  transition: color 0.5s linear;
+  transition: color 0.4s linear;
 }
 
 .nav__link:link,
