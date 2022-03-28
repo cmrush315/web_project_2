@@ -2,14 +2,12 @@
   position: relative;
   overflow: hidden;
   background-color: #0a2850;
-  height: 532px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
-  position: absolute;
-  top: 100px;
-  left: 80px;
-  margin: 0;
+  margin: 100px 0 0 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -20,8 +18,6 @@
 }
 
 .about__content {
-  position: absolute;
-  right: 0;
   max-width: 600px;
   margin: 119px 80px 173px 0;
 }
