@@ -93,7 +93,7 @@
                 </li>
                 <li class="card__list-item">
                   Iced Coffee (16 oz)
-                  <span class="card__list-divider" span></span>$1.25
+                  <span class="card__list-divider"></span>$1.25
                 </li>
               </ul>
             </div>
@@ -155,7 +155,6 @@
                   height="273"
                   src="https://www.youtube.com/embed/j6VlT_jUVPc"
                   title="YouTube video player"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
@@ -170,7 +169,6 @@
                   height="273"
                   src="https://www.youtube.com/embed/st571DYYTR8"
                   title="YouTube video player"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
@@ -222,7 +220,7 @@
               <button type="submit" class="form__button">Book a table</button>
 
               <label for="checkbox" id="form__label">
-                <input type="checkbox" class="form__checkbox" />
+                <input type="checkbox" class="form__checkbox" id="checkbox" />
                 I agree with the terms of use</label
               >
             </fieldset>
@@ -244,17 +242,44 @@
               cups!
             </p>
           </div>
+          <div class="about__circle about__circle_animation_blurred"></div>
           <div class="about__circle"></div>
         </div>
       </main>
-      <footer>
-        <h1 class="footer" id="footer">Footer</h1>
-        <ul>
-          <li>Footer 1</li>
-          <li>Footer 2</li>
-          <li>Footer 3</li>
-          <li>Footer 4</li>
-        </ul>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="../web_project_2/images/logo_practicum.svg"
+            alt="Practicum Logo"
+          />
+          <div class="footer__social">
+            <p class="footer__social-heading">Social Media</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="../web_project_2/images/facebook_white.svg"
+                  alt="Facebook Logo"
+                />
+                <a href="https://www.facebook.com" class="footer__social-link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="../web_project_2/images/instagram_white.svg"
+                  alt="Instagram Logo"
+                />
+                <a class="footer__social-link" href="https://www.instagram.com/"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; Caleb Rush 2022</p>
       </footer>
     </div>
   </body>
