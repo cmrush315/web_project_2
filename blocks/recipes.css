@@ -1,6 +1,9 @@
 .recipes {
   background-image: url(../images/background_recipes.svg);
-  background: center/cover no-repeat #fff;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .recipes__title {
