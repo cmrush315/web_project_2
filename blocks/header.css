@@ -3,7 +3,7 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
-  background: #fff url(../images/background_header.svg) no-repeat center / cover;
+  background: #fff url(../images/background_header.svg) no-repeat center/cover;
 }
 
 .logo {
@@ -31,7 +31,7 @@
   line-height: 20px;
   text-decoration: none;
   margin-left: 20px;
-  transition: color 0.25s linear;
+  transition: color 0.3s linear;
 }
 
 .nav__link:link,
