@@ -44,7 +44,7 @@
   border: 0;
 }
 
-.recipes__video-caption {
+.recipes__video-captions {
   display: flex;
   justify-content: space-between;
   font-family: Inter;
@@ -55,9 +55,6 @@
   margin-top: 24px;
 }
 
-.recipes__video-caption_name {
-  margin: 0;
-}
-.recipes__video-caption_time {
+.recipes__video-caption {
   margin: 0;
 }
