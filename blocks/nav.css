@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+}
+
+.nav__item {
+  margin-left: 20px;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  padding: 30px 80px 0 0;
+}
+
+.nav__link {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  /* margin-left: 20px; */
+  transition: color 0.3s linear;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  color: #000;
+}
+
+.nav__link:active {
+  color: #2f80ed;
+}
+.nav__link:hover {
+  color: #2f80ed;
+}

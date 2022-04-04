@@ -10,54 +10,15 @@
   height: 100vh;
 }
 
-.logo {
-  margin: 30px 0 80px 30px;
-}
-
-.nav {
+.header__navigation {
   display: flex;
-}
-
-.nav__links {
-  display: flex;
-  list-style: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 30px 80px 0 0;
-}
-
-.nav__link {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-decoration: none;
-  margin-left: 20px;
-  transition: color 0.3s linear;
-}
-
-.nav__link:link,
-.nav__link:visited {
-  color: #000;
-}
-
-.nav__link:active {
-  color: #2f80ed;
-}
-.nav__link:hover {
-  color: #2f80ed;
-}
-
-.nav__link:first-of-type {
-  margin-left: none;
+  justify-content: space-between;
 }
 
 .header__title {
   max-width: 729px;
   margin: 0 0 23px 80px;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -66,7 +27,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: Noto, serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -77,7 +38,7 @@
 .header__description {
   max-width: 683px;
   margin-left: 80px;
-  font-family: Noto, serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -105,7 +66,7 @@
 
 .header__hours {
   align-self: flex-end;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -118,9 +79,10 @@
 
 .header__address {
   align-self: flex-end;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }

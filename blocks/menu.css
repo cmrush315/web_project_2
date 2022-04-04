@@ -9,7 +9,7 @@
 }
 
 .menu__title {
-  font-family: Inter, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -20,7 +20,7 @@
 }
 
 .menu__subtile {
-  font-family: Noto, serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -32,8 +32,10 @@
 
 .menu__cards {
   margin: 0 auto;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   row-gap: 100px;
   justify-content: center;
+  list-style: none;
 }
